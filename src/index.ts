@@ -10,8 +10,9 @@ const MermaidChart = (code: string) => {
       code = sc;
     });
     return `<div class="mermaid">${code}</div>`;
-  } catch ({ str, hash }) {
-    return `<pre>${str}</pre>`;
+  } catch (error) {
+    throw error;
+    // return `<pre>${str}</pre>`;
   }
 };
 

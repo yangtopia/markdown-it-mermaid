@@ -1,6 +1,6 @@
 {
   "name": "@yangtopia/markdown-it-mermaid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mermaid plugin for markdown-it.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
