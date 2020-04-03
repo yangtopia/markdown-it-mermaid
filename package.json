@@ -1,14 +1,20 @@
 {
-  "name": "markdown-it-mermaid",
-  "version": "0.2.5",
+  "name": "@yangtopia/markdown-it-mermaid",
+  "version": "1.0.0",
   "description": "Mermaid plugin for markdown-it.",
-  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "rm -rf dist && tsc --project tsconfig.json"
+    "build": "rm -rf dist && tsc"
   },
-  "repository": "git@github.com:yangtopia/markdown-it-mermaid.git",
-  "author": "Yang Heechang <yangtopia@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangtopia/markdown-it-mermaid.git"
+  },
+  "keywords": [],
+  "author": "Heechang Yang <yangtopia@gmail.com>",
   "license": "MIT",
+  "homepage": "https://github.com/yangtopia/markdown-it-mermaid.git",
   "dependencies": {
     "mermaid": "^8.4.8"
   },

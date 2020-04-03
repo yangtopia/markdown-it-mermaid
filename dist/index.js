@@ -1,6 +1,9 @@
 "use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-var mermaid_1 = require("mermaid");
+var mermaid_1 = __importDefault(require("mermaid"));
 var MermaidChart = function (code) {
     try {
         var needsUniqueId = "render" + Math.floor(Math.random() * 10000).toString();
@@ -41,4 +44,3 @@ MermaidPlugIn.default = {
     }
 };
 exports.default = MermaidPlugIn;
-//# sourceMappingURL=index.js.map
